@@ -9,17 +9,17 @@
 let
 
   pname = "mattermost-desktop";
-  version = "5.9.0";
+  version = "5.9.2";
 
   srcs = {
     "x86_64-linux" = {
       url = "https://releases.mattermost.com/desktop/${version}/${pname}-${version}-linux-x64.tar.gz";
-      hash = "sha256-zLKdfu5p7TyJOw8vJX7i/uu4j0PrUf2/BDmb1kdqqMc=";
+      hash = "sha256-huo8yB9uXrVzCHx6rVjLBH4Zvzo8xKqSWfc9TU+y47I=";
     };
 
     "aarch64-linux" = {
       url = "https://releases.mattermost.com/desktop/${version}/${pname}-${version}-linux-arm64.tar.gz";
-      hash = "sha256-JljK7d4KLAn1+NwF+VcedL/7hEsp/9LzLdzROa1fgJA=";
+      hash = "sha256-whjqYL7E5V6oe6XMZ/GEYBTFlFLpcoj4UzNkF5JS5MM=";
     };
   };
 
